@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background: #f8f9fa;
+  color: #1b1b1b;
+}
+
+header {
+  background: #0f1c2c;
+  color: white;
+  padding: 15px 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Landing Page */
+.landing-page {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.landing-page h1 {
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+.landing-page h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.landing-page p {
+  font-size: 1em;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.buttons .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  background: #0f1c2c;
+  color: white;
+  border-radius: 5px;
+}
+
+.buttons .btn:hover {
+  background: #1b1b1b;
+}
+
+/* Portfolio Buttons */
+.portfolio-page {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.portfolio-buttons .btn {
+  display: block;
+  margin: 15px auto;
+  padding: 15px 30px;
+  background: #0f1c2c;
+  color: white;
+  text-decoration: none;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.portfolio-buttons .btn:hover {
+  background: #1b1b1b;
+}
+
+/* Experience Page */
+.experience-page {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.experience-item {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.experience-item .company-logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.experience-item h2 {
+  margin: 5px 0;
+}
+
+.experience-item .time {
+  color: gray;
+  font-style: italic;
+  margin-bottom: 10px;
+}
