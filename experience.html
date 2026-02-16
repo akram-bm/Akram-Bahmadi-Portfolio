@@ -1,22 +1,126 @@
-<div class="experience-item">
-  <img src="images/emdep-logo.jpg" alt="EMDEP Logo" class="company-logo">
-  <h2>Stage Libre : Technicien maintenance du test électrique</h2>
-  <p class="time">04 Jul. 2025 – 06 Août. 2025 | EMDEP-Tanger, Maroc</p>
-  <p>Optimisation et mise en service des bancs de test (électrification, déclaration de cartes électroniques) avec ajustement des contreparties selon le layout et les besoins clients.</p>
-</div>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience - Akram Ko</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ===== Général ===== */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+      color: #1b1b1b;
+    }
+    header {
+      background: #0f1c2c;
+      color: white;
+      padding: 15px 0;
+    }
+    header nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    header nav ul li {
+      margin: 0 15px;
+    }
+    header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    header nav ul li a:hover {
+      text-decoration: underline;
+    }
 
-<div class="experience-item">
-  <img src="images/expleo-logo.jpg" alt="Expleo Logo" class="company-logo">
-  <h2>Stage de fin d’études : Assistant technique diagnostic automobile</h2>
-  <p class="time">16 Sep. 2024 – 27 Déc. 2024 | Département PCPR, Expleo – Tanger, Maroc</p>
-  <p>Projet : Modélisation du système Anti-Bloque Système sous MATLAB.</p>
-  <p>Expertise technique (diagnostic et résolution de pannes électriques/électroniques sur calculateurs moteur) et formation des nouveaux agents.</p>
-</div>
+    /* ===== Page principale ===== */
+    .experience-page {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
 
-<div class="experience-item">
-  <img src="images/valeo-logo.jpg" alt="Valeo Logo" class="company-logo">
-  <h2>Stage d’initiation : Technicien Maintenance du test</h2>
-  <p class="time">17 Janv. 2023 – 08 Avr. 2023 | Département Vistronique, Valeo Lighting Vision – Tanger, Maroc</p>
-  <p>Maintenance (préventive et corrective) et amélioration des processus.</p>
-  <p>Contrôle Qualité : Audits quotidiens (Daily Audit) et expertise des PCB non conformes (NOK).</p>
-</div>
+    .experience-page h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.5em;
+    }
+
+    /* ===== Chaque expérience ===== */
+    .experience-item {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .experience-item .company-logo {
+      width: 120px;
+      margin-bottom: 15px;
+      display: block;
+    }
+
+    .experience-item h2 {
+      margin: 5px 0 10px 0;
+      font-size: 1.5em;
+      color: #0f1c2c;
+    }
+
+    .experience-item .time {
+      color: gray;
+      font-style: italic;
+      margin-bottom: 15px;
+    }
+
+    .experience-item p {
+      margin-bottom: 10px;
+      line-height: 1.5em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="experience-page">
+  <h1>Mes Expériences</h1>
+
+  <div class="experience-item">
+    <img src="images/emdep-logo.jpg" alt="EMDEP Logo" class="company-logo">
+    <h2>Stage Libre : Technicien maintenance du test électrique</h2>
+    <p class="time">04 Juil. 2025 – 06 Août. 2025 | EMDEP-Tanger, Maroc</p>
+    <p>Optimisation et mise en service des bancs de test (électrification, déclaration de cartes électroniques) avec ajustement des contreparties selon le layout et les besoins clients.</p>
+  </div>
+
+  <div class="experience-item">
+    <img src="images/expleo-logo.jpg" alt="Expleo Logo" class="company-logo">
+    <h2>Stage de fin d’études : Assistant technique diagnostic automobile</h2>
+    <p class="time">16 Sep. 2024 – 27 Déc. 2024 | Département PCPR, Expleo – Tanger, Maroc</p>
+    <p>Projet : Modélisation du système Anti-Bloque Système sous MATLAB.</p>
+    <p>Expertise technique (diagnostic et résolution de pannes électriques/électroniques sur calculateurs moteur) et formation des nouveaux agents.</p>
+  </div>
+
+  <div class="experience-item">
+    <img src="images/valeo-logo.jpg" alt="Valeo Logo" class="company-logo">
+    <h2>Stage d’initiation : Technicien Maintenance du test</h2>
+    <p class="time">17 Janv. 2023 – 08 Avr. 2023 | Département Vistronique, Valeo Lighting Vision – Tanger, Maroc</p>
+    <p>Maintenance (préventive et corrective) et amélioration des processus.</p>
+    <p>Contrôle Qualité : Audits quotidiens (Daily Audit) et expertise des PCB non conformes (NOK).</p>
+  </div>
+
+</main>
+
+</body>
+</html>
