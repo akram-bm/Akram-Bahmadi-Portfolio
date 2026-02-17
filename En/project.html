@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Akram</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ===== General ===== */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+      color: #1b1b1b;
+    }
+    header {
+      background: #0f1c2c;
+      color: white;
+      padding: 15px 0;
+    }
+    header nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    header nav ul li {
+      margin: 0 15px;
+    }
+    header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    header nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== Main Page ===== */
+    .projects-page {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .projects-page h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.5em;
+    }
+
+    /* ===== Each Project ===== */
+    .project-item {
+      background: white;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .project-item h2 {
+      margin: 0 0 10px 0;
+      font-size: 1.5em;
+      color: #0f1c2c;
+    }
+
+    .project-item .time {
+      color: gray;
+      font-style: italic;
+      margin-bottom: 15px;
+    }
+
+    .project-item p {
+      margin-bottom: 10px;
+      line-height: 1.5em;
+    }
+
+    /* ===== Screenshots ===== */
+    .screenshots {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .screenshots img {
+      width: calc(33% - 10px);
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    /* ===== Download Button ===== */
+    .btn-download {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 15px;
+      background: #0f1c2c;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .btn-download:hover {
+      background: #1b1b1b;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="projects-page">
+  <h1>My Projects</h1>
+
+  <!-- Project 1 -->
+  <div class="project-item">
+    <h2>Team Leader – Final Training Project | ENSI (JobIntehc)</h2>
+    <p class="time">Dec 2025 – Jan 2026</p>
+    <p>Project: Development of a unified web platform for searching scholarships in Morocco and internationally.</p>
+    <ul>
+      <li>Team direction and operational contribution (planning, supervision, task execution).</li>
+      <li>Coordination with stakeholders (teaching staff).</li>
+      <li>Performance analysis and reporting (process documentation).</li>
+    </ul>
+    <div class="screenshots">
+      <img src="images/projet1-1.jpg" alt="Screenshot 1">
+      <img src="images/projet1-2.jpg" alt="Screenshot 2">
+      <img src="images/projet1-3.jpg" alt="Screenshot 3">
+    </div>
+    <a href="downloads/rapport-projet1.pdf" download class="btn-download">Download Report</a>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="project-item">
+    <h2>Anti-Lock Braking System Modeling under MATLAB | IFMIA/EXPLEO</h2>
+    <p class="time">Sep 2024 - Dec 2025</p>
+    <p>Development of a showcase platform designed to present the association's activities and strengthen its visibility in the Tangier region.</p>
+    <div class="screenshots">
+      <img src="images/projet2.jpg" alt="Screenshot 1">
+      <img src="images/projet2-2.jpg" alt="Screenshot 2">
+    </div>
+    <a href="downloads/rapport-projet2.pdf" download class="btn-download">Download Report</a>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="project-item">
+    <h2>Team Leader – Final Year Project | IFMIA TFZ</h2>
+    <p class="time">Jan 2025 - May 2025</p>
+    <p>1st project: Design of a didactic model for digital electronics</p>
+    <p>2nd project: Creation of a PCB engraver (circuit board)</p>
+    <ul>
+      <li>Lead and coordinate the team, organize meetings and ensure coordination with teachers.</li>
+      <li>Design of didactic models with PCB interface (Proteus).</li>
+      <li>Design and programming of a CNC engraver machine (Arduino, FlatCam, UGS).</li>
+    </ul>
+    <div class="screenshots">
+      <img src="images/projet3-1.jpg" alt="Screenshot 1">
+      <img src="images/projet3-2.jpg" alt="Screenshot 2">
+      <img src="images/projet3-3.jpg" alt="Screenshot 3">
+    </div>
+    <a href="downloads/rapport-projet.pdf" download class="btn-download">Download Report</a>
+  </div>
+
+</main>
+
+</body>
+</html>
