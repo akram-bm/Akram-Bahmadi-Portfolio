@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAHMADI Akram - Portfolio </title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* Hide portfolio section by default */
+    .portfolio-section {
+      display: none;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .portfolio-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    .portfolio-buttons a:hover {
+      background-color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 8px;
+      background-color: #0077b5;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .btn-download {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 8px;
+      background-color: #0077b5;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      opacity: 0.8;
+    }
+
+    .profile-pic {
+      width: 180px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .landing-page {
+      text-align: center;
+      padding: 50px 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="landing-page">
+    <div class="intro">
+      <img src="images/your-picture.png" alt="Your Picture" class="profile-pic">
+
+      <h1>BAHMADI Akram</h1>
+      <h2>Technicien en Systèmes Industriels Automatisés</h2>
+
+      <p>
+        Passionate about automation, electronics, and industrial systems. 
+        In love with coding, problem-solving, and continuous learning.
+      </p>
+
+<div class="buttons">
+
+  <!-- Preview CV (open in browser) -->
+  <a href="downloads/CV1.pdf" target="_blank" class="btn">
+    Preview CV
+  </a>
+
+  <!-- Download CV (force download) -->
+  <a href="downloads/CV1.pdf" download="BAHMADI_Akram_CV.pdf" class="btn-download">
+    Download le CV
+  </a>
+
+  <!-- Download Portfolio -->
+  <a href="downloads/Portfolio.pdf" download class="btn">
+    Download Portfolio
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/akram-bahmadi" target="_blank" class="btn">
+    LinkedIn
+  </a>
+
+  <!-- Contact -->
+  <a href="mailto:your.akrambm05@gmail.com" class="btn">
+    Contact Me
+  </a>
+
+  <!-- Portfolio Toggle Button -->
+  <button class="btn" onclick="togglePortfolio()">
+    Portfolio
+  </button>
+
+</div>
+
+
+      <!-- Hidden Portfolio Section -->
+      <div id="portfolioSection" class="portfolio-section">
+        <h3>My Portfolio</h3>
+
+        <div class="portfolio-buttons">
+          <a href="experience.html">Experience</a>
+          <a href="project.html">Projects</a>
+          <a href="competence.html">Competences</a>
+          <a href="formation.html">Formation</a>
+          <a href="certification.html">Certifications</a>
+          <a href="language.html">Languages</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    function togglePortfolio() {
+      const section = document.getElementById("portfolioSection");
+      if (section.style.display === "none" || section.style.display === "") {
+        section.style.display = "block";
+      } else {
+        section.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+</html>
